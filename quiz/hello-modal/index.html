@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>Admin side menu</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+  <div class="root">
     <h1>昨日作ったモーダルと同じモーダルを作って</h1>
     <button id="openButton">開く</button>
-    <div id="modal">
-      <h1>ログイン出来ませんでした。</h1>
-      <button id="closeButton">閉じる</button>
-    </div>
+      <div class="container" id="modal">
+        <div class="modal">
+          <div class="content">git
+            <p class="error-text">ログイン出来ませんでした。</p>
+            <div class="close-box">
+              <button id="closeButton">閉じる</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
     <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>
